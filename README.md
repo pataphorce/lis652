@@ -1,2 +1,5 @@
 # lis652
-metadata tests
+Josh Hill
+USM
+Spring 2019
+metadata exercises
