@@ -1,5 +1,5 @@
 # lis652
-Josh Hill
-USM
-Spring 2019
-metadata exercises
+  Josh Hill  
+  USM  
+  Spring 2019
+  metadata exercises
