@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- I couldn't download an xml editor so I hosted the schema file on a github account so I could reference it here -->
+<Joshsmusic xmlns="https://pataphorce.github.io/lis652/" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+            xsi:SchemaLocation="https://pataphorce.github.io/lis652/ https://pataphorce.github.io/lis652/joshsmusicschema.xsd">
+  <artist>Greta Van Fleet</artist>
+  <albumtitle>Anthem of the Peaceful Army</albumtitle>
+  <genre>Blues</genre>
+  <genre>Rock</genre>
+  <releasedate>2018-10-19</releasedate>
+  <publisher>Republic Records</publisher>
+  <price>11.99</price>
+  <rating>4</rating>
+  <tracklist songtitle="Age of Man" length="PT6M06S"/>
+  <tracklist songtitle="The Cold Wind" length="PT3M16S"/>
+  <tracklist songtitle="When the Curtain Falls" length="PT3M42S"/>
+  <tracklist songtitle="Watching Over" length="PT4M28S"/>
+  <tracklist songtitle="Lover, Leaver (Taker, Believer)" length="PT6M01S"/>
+  <tracklist songtitle="You're the One" length="PT4M25S"/>
+  <tracklist songtitle="The New Day" length="PT2M44S"/>
+  <tracklist songtitle="Mountain of the Sun" length="PT4M30S"/>
+  <tracklist songtitle="Brave New World" length="PT5M00S"/>
+  <tracklist songtitle="Anthem" length="PT4M41S"/>
+</Joshsmusic>
