@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="Joshsmusic">
+	<xs:complexType>
+        <xs:sequence>
+            <xs:element name="artist" type="xs:string"/>
+            <xs:element name="albumtitle" type="xs:string"/>
+            <xs:element name="genre" maxOccurs="unbounded">
+            	<xs:simpleType>
+    				<xs:restriction base="xs:string">
+      					<xs:enumeration value="Blues"/>
+      					<xs:enumeration value="Comedy"/>
+      					<xs:enumeration value="Country"/>
+                      	<xs:enumeration value="Easy Listening"/>
+      					<xs:enumeration value="Electronic"/>
+      					<xs:enumeration value="Folk"/>
+                      	<xs:enumeration value="Hip Hop"/>
+      					<xs:enumeration value="Jazz"/>
+      					<xs:enumeration value="Latin"/>
+                      	<xs:enumeration value="Pop"/>
+      					<xs:enumeration value="R&amp;B and Soul"/>
+      					<xs:enumeration value="Rock"/>
+                      	<xs:enumeration value="Other"/>
+    				</xs:restriction>
+  				</xs:simpleType>
+			</xs:element>
+            <xs:element name="releasedate" type="xs:date"/>
+            <xs:element name="publisher" type="xs:string"/>
+            <xs:element name="price" type="xs:decimal"/>
+            <xs:element name="rating">
+                <xs:simpleType>
+                    <xs:restriction base="xs:integer">
+                        <xs:minInclusive value="1"/>
+      					<xs:maxInclusive value="5"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+          	<xs:element name="tracklist" maxOccurs="unbounded">
+            	<xs:complexType>
+            		<xs:attribute name="songtitle" type="xs:string" use="required"/>
+            		<xs:attribute name="length" type="xs:time" use="required"/>
+          		</xs:complexType>
+          </xs:element>
+      	</xs:sequence>
+    </xs:complexType>
+</xs:element>
+    
+</xs:schema>
