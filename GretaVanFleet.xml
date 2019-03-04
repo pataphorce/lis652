@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- I couldn't download an xml editor so I hosted the schema file on a github account so I could reference it here -->
-<Joshsmusic xmlns="https://pataphorce.github.io/lis652/" 
+<Joshsmusic
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-            xsi:schemaLocation="https://pataphorce.github.io/lis652/ https://pataphorce.github.io/lis652/joshsmusicschema.xsd">
+            xsi:noNamespaceSchemaLocation="https://pataphorce.github.io/lis652/joshsmusicschema.xsd">
   <artist>Greta Van Fleet</artist>
   <albumtitle>Anthem of the Peaceful Army</albumtitle>
   <genre>Blues</genre>
